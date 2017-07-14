@@ -1,0 +1,26 @@
+.buttonEgal{
+  width:100%;
+
+}
+button{
+  width:40px;
+  height: 40px;
+  box-shadow: 5px 5px 5px #5d5d89;
+}
+button:hover{
+  color: red;
+  box-shadow: 7px 7px 10px #5d5d89;
+}
+
+table{
+  border: 1px solid #5d5d89;
+  border-radius: 10px;
+  background-color: #e0e0eb;
+  box-sizing: border-box;
+  padding: 6px;
+}
+input{
+  background-color: #e0ebeb;
+  margin-bottom: 5px;
+  width: 100%;
+}

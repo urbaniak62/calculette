@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html  lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <table>
+          <tr>
+            <td colspan="5"><input type="text" id="ecran" value="" size="9"></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="calcul(7)" >7</button></td>
+            <td><button class="button" onclick="calcul(8)" type="button">8</button></td>
+            <td><button class="button" onclick="calcul(9)" type="button">9</button></td>
+            <td><button class="button clear" onclick="calcul('c')" type="button">c</button></td>
+            <td><button class="button clearA" onclick="calcul('ce')" type="button">ce</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="button" onclick="calcul(4)" type="button">4</button></td>
+            <td><button class="button" onclick="calcul(5)" type="button">5</button></td>
+            <td><button class="button" onclick="calcul(6)" type="button">6</button></td>
+            <td><button class="button buttonAdd" onclick="calcul('+')" type="button">+</button></td>
+            <td><button class="button buttonMoins" onclick="calcul('-')" type="button">-</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="button" onclick="calcul(1)" type="button">1</button></td>
+            <td><button class="button" onclick="calcul(2)" type="button">2</button></td>
+            <td><button class="button" onclick="calcul(3)" type="button">3</button></td>
+            <td><button class="button buttonMulti" onclick="calcul('x')" type="button">x</button></td>
+            <td ><button class="button buttonDiv" onclick="calcul('/')" type="button">/</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="button" onclick="calcul(0)" type="button">0</button></td>
+            <td><button  class="button" onclick="calcul('.')" type="button">.</button></td>
+            <td colspan="3"><button class="button buttonEgal" onclick="calcul('=')" type="button">=</button></td>
+          </tr>
+        </table>
+
+
+
+        <script src="js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
