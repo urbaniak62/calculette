@@ -15,36 +15,36 @@
     <body>
         <table>
           <tr>
-            <td colspan="5"><input type="text" id="ecran" value="" size="9"></td>
+            <td colspan="5"><input type="text" id="ecran" value="" size="9"></input></td>
           </tr>
           <tr>
-            <td><button class="button" onclick="calcul(7)" >7</button></td>
-            <td><button class="button" onclick="calcul(8)" type="button">8</button></td>
-            <td><button class="button" onclick="calcul(9)" type="button">9</button></td>
-            <td><button class="button clear" onclick="calcul('c')" type="button">c</button></td>
-            <td><button class="button clearA" onclick="calcul('ce')" type="button">ce</button></td>
-          </tr>
-
-          <tr>
-            <td><button class="button" onclick="calcul(4)" type="button">4</button></td>
-            <td><button class="button" onclick="calcul(5)" type="button">5</button></td>
-            <td><button class="button" onclick="calcul(6)" type="button">6</button></td>
-            <td><button class="button buttonAdd" onclick="calcul('+')" type="button">+</button></td>
-            <td><button class="button buttonMoins" onclick="calcul('-')" type="button">-</button></td>
+            <td><button  class="button" onclick="calcul(7)" value="7" >7</button></td>
+            <td><button class="button" onclick="calcul(8)" value="8">8</button></td>
+            <td><button class="button" onclick="calcul(9)" value="9">9</button></td>
+            <td><button class="button clear" onclick="calcul('')" value=" ">c</button></td>
+            <td><button class="button clearA" onclick="clearA("0")" value="0">ce</button></td>
           </tr>
 
           <tr>
-            <td><button class="button" onclick="calcul(1)" type="button">1</button></td>
-            <td><button class="button" onclick="calcul(2)" type="button">2</button></td>
-            <td><button class="button" onclick="calcul(3)" type="button">3</button></td>
-            <td><button class="button buttonMulti" onclick="calcul('x')" type="button">x</button></td>
-            <td ><button class="button buttonDiv" onclick="calcul('/')" type="button">/</button></td>
+            <td><button class="button" onclick="calcul(4)" value="4">4</button></td>
+            <td><button class="button" onclick="calcul(5)" value="5">5</button></td>
+            <td><button class="button" onclick="calcul(6)" value="6">6</button></td>
+            <td><button  class="button buttonAdd" onclick="add('+')" value="+">+</button></td>
+            <td><button class="button buttonMoins" onclick="add('-')" value="-">-</button></td>
           </tr>
 
           <tr>
-            <td><button class="button" onclick="calcul(0)" type="button">0</button></td>
-            <td><button  class="button" onclick="calcul('.')" type="button">.</button></td>
-            <td colspan="3"><button class="button buttonEgal" onclick="calcul('=')" type="button">=</button></td>
+            <td><button class="button" onclick="calcul(1)" value="1" >1</button></td>
+            <td><button class="button" onclick="calcul(2)" value="2" >2</button></td>
+            <td><button class="button" onclick="calcul(3)" value="3">3</button></td>
+            <td><button class="button buttonMulti" onclick="add('*')" value="*">x</button></td>
+            <td ><button class="button buttonDiv" onclick="add('/')" value="/">/</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="button" onclick="calcul(0)" value="0">0</button></td>
+            <td><button  class="button" onclick="calcul('.')" value=".">.</button></td>
+            <td colspan="3"><button class="button buttonEgal" onclick="resulta()" value="=" >=</button></td>
           </tr>
         </table>
 
