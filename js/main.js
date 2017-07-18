@@ -20,11 +20,7 @@ function calcul(a){
 
 	/*RESULTAT-----------------*/
 	function resulta(){
-		var total = eval(ecran.value);
-		alert(total);
-		document.getElementById("ecran").innerHTML=total;
 
-
-		// alert(eval(total.toString()));
-
+		ecran.value=eval(ecran.value);
 	}
+		
