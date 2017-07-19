@@ -1,11 +1,12 @@
 
 
-var chiffre= document.getElementsByClassName("button");
+// var chiffre= document.getElementsByClassName("button");
 // var add= document.getElementsByClassName("buttonAdd");
-var Moins= document.getElementsByClassName("buttonMoins");
-var multi= document.getElementsByClassName("buttonMulti");
-var div= document.getElementsByClassName("buttonDiv");
+// var Moins= document.getElementsByClassName("buttonMoins");
+// var multi= document.getElementsByClassName("buttonMulti");
+// var div= document.getElementsByClassName("buttonDiv");
 // var resulta= document.getElementsByClassName("buttonegal");
+
 var ecran= document.getElementById("ecran");
 var effacer="0";
 function calcul(a){
